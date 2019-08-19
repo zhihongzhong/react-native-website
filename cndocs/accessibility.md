@@ -72,8 +72,7 @@ iOS 和 Android 都提供了便于残障人士无障碍使用 App 的 API。此�
 在上面这个例子里，Android 的 Talkback will read the hint after the label. At this time, hints cannot be turned off on Android.
 
 #### accessibilityIgnoresInvertColors(iOS)
-
-Inverting screen colors is an Accessibility feature that makes the iPhone and iPad easier on the eyes for some people with a sensitivity to brightness, easier to distinguish for some people with color blindness, and easier to make out for some people with low vision. However, sometimes you have views such as photos that you don't want to be inverted. In this case, you can set this property to be false so that these specific views won't have their colors inverted.
+    反转屏幕颜色是让iPhone或者iPad为对亮度敏感的用户更容易接受、为色盲用户提供更清晰的颜色、以及为低视力用户提供更加方便的操作的高级特性。 然而，有时候你有一些场景，例如照片， 你并不想反转它们。 在这个条件下，你可以设置这个属性为false， 以控制这些场景不会被反转。
 
 #### 无障碍角色 accessibilityRole (iOS, Android)
 
